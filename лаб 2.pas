@@ -7,7 +7,7 @@ begin
   k:=0;
   repeat 
     read(b);
-    if k>6 then begin
+    if k>5 then begin
     writeln('вы проиграли');
     break;
     end
