@@ -4,7 +4,7 @@ begin
   randomize;
   a:=random(101);
   writeln('Вводите числа от 1 до 100, пока не угадаете задуманное число');
-  k:=0;
+  k:=1;
   repeat 
     read(b);
     if k>5 then begin
